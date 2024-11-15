@@ -28,8 +28,8 @@ export default function Generator() {
   const copyPasswordToClipboard = () => {
     window.navigator.clipboard.writeText(password)
     passwordRef.current?.select()
-    alert(`Your password is copied ${password}`)
   }
+
   function handleLength(length) {
     return length < 10 ? `0${length}` : length
   }

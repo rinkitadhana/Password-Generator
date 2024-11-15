@@ -8,7 +8,7 @@ export default function Header() {
         </div>
       </div>
       <a
-        href=""
+        href="https://github.com/rinkitadhana/Password-Generator"
         target="_blank"
         className=" text-blue-500 hover:text-blue-400 underline font-semibold cursor-pointer"
       >
